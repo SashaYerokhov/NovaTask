@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Launch Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <nav class="main-nav">
+        <div class="container nav-container">
+          <h1 class="logo">NavTask</h1>
+          <button id="theme-toggle" class="theme-toggle-button">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </button>
+        </div>
+      </nav>
+      <!-- End of navbar -->
+
+      <header class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="hero-tagline">Future of Productivity is Here</span>
+            <h2>Intelligent Task Management, Reimagined.</h2>
+            <p class="subtitle">
+              NovaTask leverages cutting-edge AI to organize your schedule,
+              prioritize your tasks, and help you achieve peak performance. Sign
+              up for early access!
+            </p>
+            <a href="#signup" class="cta-button hero-sta"
+              >Get Early Access & Updates</a
+            >
+          </div>
+          <div class="hero-image-container">
+            <div class="hero-image-bg-shape"></div>
+            <img
+              src="./images/hero-image.png"
+              class="hero-main-image"
+              alt="hero image"
+            />
+          </div>
+        </div>
+      </header>
+      <!-- End of Hero Section -->
+
+      <section class="features">
+        <div class="container">
+          <div class="section-header">
+            <span>Core Benefits</span>
+            <h2>Why Choose NovaTask?</h2>
+          </div>
+          <div class="features-layout">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-brain"></i></div>
+              <div class="feature-text">
+                <h3>AI-Powered Scheduling</h3>
+                <p>
+                  Our smart algorithms learn your work habits to suggest optimal
+                  task timings and break periods for maximum focus.
+                </p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+              <div class="feature-text">
+                <h3>Dynamic Prioritiszation</h3>
+                <p>
+                  NovaTask automatically adjusts task priority based on
+                  deadlines, importance, and your energy levels.
+                </p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-chart-pie"></i></div>
+              <div class="feature-text">
+                <h3>Insightful Analytics</h3>
+                <p>
+                  Track your progress, identify productivity patters, and
+                  celebrate your achievements with clear visuals.
+                </p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-sync-alt"></i></div>
+              <div class="feature-text">
+                <h3>Seamless Integration</h3>
+                <p>
+                  Connect NovaTask with your favorite calendar and project
+                  manalement tools for a unified workkflow.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of features section -->
+      <section class="how-it-works">
+        <div class="container">
+          <div class="section-header">
+            <span>Get Started Easily</span>
+            <h2>How NovaTask Works?</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-tasks"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>1. Add Your Tasks</h3>
+                <p>
+                  Import from existing tools or quickly add new tasks. NovTask
+                  supports various input methods.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>2. Ai Processing</h3>
+                <p>
+                  Our intelligent engine analyzes your tasks, deadlines, and
+                  learned preferences.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-calendar-check"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>3. Optimized Schedule</h3>
+                <p>
+                  Receive a clear, actionable plan. Adjust as needed and
+                  conquer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of how it works -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-header">
+            <span>Real User Experiences</span>
+            <h2>What People Are Saying</h2>
+          </div>
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  class="testimonial-avatar"
+                  src="./images/alex-testimonial.png"
+                  alt="photo alex"
+                />
+                <div>
+                  <p class="testimonial-autor">Alex P.</p>
+                  <p class="testimonial-rol">Freelance Developer</p>
+                </div>
+              </div>
+              <div class="testimonial-quote">
+                NovaTask`s AI scheduling is a game-changer for managing my
+                varied client projects. I`m more and less stressed!
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  class="testimonial-avatar"
+                  src="./images/sarah-testimonial.png"
+                  alt="photo sarah"
+                />
+                <div>
+                  <p class="testimonial-autor">Sarah K.</p>
+                  <p class="testimonial-rol">Marketing Manager</p>
+                </div>
+              </div>
+              <div class="testimonial-quote">
+                The dynamic prioritization feature has helped me tackle first.
+                My productivity has soared!
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <img
+                  class="testimonial-avatar"
+                  src="./images/david-testimonial.png"
+                  alt="photo david"
+                />
+                <div>
+                  <p class="testimonial-autor">David L.</p>
+                  <p class="testimonial-rol">Startup Founder</p>
+                </div>
+              </div>
+              <div class="testimonial-quote">
+                Finally, a to-do app understands me! The insights are incredibly
+                valuable. Can`t wait for the full launch.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of the Testimonials section -->
+
+      <div class="signup">
+        <div class="container signup-container">
+          <div class="signup-content">
+            <h2>Ready to Transform Your Productivity?</h2>
+            <p>
+              Join our early access list to be among the first to experience
+              NovaTask. Get exclusive updates, launch day discounts, and help
+              shape the future of task management
+            </p>
+          </div>
+          <div class="signup-form-container">
+            <form action="#" id="signup-form">
+              <input
+                type="email"
+                id="email-input"
+                placeholder="your.email@example.com"
+                required
+              />
+              <button type="submit" class="cta-button signup-stn">
+                Get Early Access
+              </button>
+            </form>
+            <p id="signup-message" class="signup-message">
+              Thanks for signup up, testing@gmail.com! We`ll notify you.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- End of Signup Section -->
+      <section class="faq">
+        <div class="container">
+          <div class="section-header">
+            <span>Got Questions?</span>
+            <h2>Ww`we got Answers</h2>
+          </div>
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>What makes NovaTask different?</span>
+                <i class="fas fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  NovaTask leverages advanced AI to ot h=just list your tasks,
+                  but to intelligently and prioritize them based on your unique
+                  work patterns, deadlines, and energy levels. It`s like having
+                  a personal productivity assistant
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Is there a mobile app?</span>
+                <i class="fas fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes! NovaTask will be available on iOS and android, ensuring you can stay productive on the go. Your tasks and schedule will sync seamless across all yor devices.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>How much will NovaTask cost?</span>
+                <i class="fas fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  We`re finalizing our pricing plans. Sign up for early  access to be notified about our launch pricing and exclusive offers for early adopters. We aim to have a free tier for basic use and affordable premium plans for advanced features.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Can I integrate with tools?</span>
+                <i class="fas fa-plus faq-icon"></i>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Absolutely! We`re building integrations for popular calendar apps, project management tools, and communication platforms. Our goal is to make NovaTask a central hub for your productivity.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of FAQ section  -->
+    </div>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-left">
+          <h3 class="logo">NovaTask</h3>
+          <p>
+            &#169; 2025 NovaTask. All rights reserved. Productivity, Perfected.
+          </p>
+        </div>
+        <div class="footer-right">
+          <p>Connect with us:</p>
+          <div class="social-links">
+            <a href="#">
+              <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
